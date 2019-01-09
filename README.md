@@ -58,7 +58,7 @@ add appropriate zypper repos to your system to be sure.
   * Need to ensure your SLE Server is SCC registered to have access to
     Pool & Update repos
   * Need to add the SLE SDK Product/Addon
-  * Need [devel:languages:python](https://download.opensuse.org/repositories/devel:/languages:/python/SLE_12_SP3/devel:languages:python.repo) for SLE 12 SP3
+  * Need [devel:languages:python:backports](https://download.opensuse.org/repositories/devel:/languages:/python:/backports/SLE_12_SP3/) for SLE 12 SP3
   * Need a version of *jq*, version 1.5 or later, installed.
 
 ### Paswordless sudo must be setup
@@ -66,7 +66,7 @@ add appropriate zypper repos to your system to be sure.
 It is assumed that you have setup passwordless sudo for your account.
 If not you can do so by running a command like the following:
 
-    % echo "${USER} ALL=(ALL:ALL) NOPASSWD:ALL | \
+    % echo "${USER} ALL=(ALL:ALL) NOPASSWD:ALL" | \
         sudo tee /etc/sudoers.d/${USER}
 
 ### First run may require re-login
