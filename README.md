@@ -525,8 +525,10 @@ For example,
 
     export ARDANA_SITE=provo
 
-*NOTE*: Currently the only defined site is Provo, which is therefore the
-default site, so this step isn't necessary.
+*NOTE*: Currently the only defined sites are Provo and Nuremberg. You 
+will want to specify the appropriate site location, as the initial repo 
+download is very large and can take a significantly long time over a 
+slow intercontinental link.
 
 ### Steps to manually setup and verify the developer environment
 
